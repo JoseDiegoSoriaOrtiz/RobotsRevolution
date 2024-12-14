@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buena Suerte</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/CSS/Juego.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        
+        <h3>Movimientos <div id="movimientos">0</div> </h3>
+        <button type="button" id="btnEC" class="btn">
+          <strong>Enviar </strong>
+          <div id="container-stars">
+            <div id="stars"></div>
+          </div>
+
+          <div id="glow">
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+        </button>
+        
+        <h3>Tiempo<div id="cronometro">
+          
+          00:00
+        </div></h3>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div id="div1" class="lab1">
+        <img id="img1" src="/img/cientifica.png" name="cientifica" alt="Imagen" />
+        <img id="S2" src="/img/cientifica.png" name="cientifica" alt="Imagen2" />
+        <img id="S3" src="/img/cientifica.png" name="cientifica" alt="Imagen2" />
+        <img id="R4" src="/img/robot1.png" name="robot"alt="Imagen" />
+        <img id="R5" src="/img/robot2.png"  name="robot" alt="Imagen2" />
+        <img id="R6" src="/img/robot3.png"  name="robot" alt="Imagen2" />
+        <div
+          style="position: fixed; bottom: 65px; margin-left: 15px"
+          class="notification"
+        >
+          <div class="notiglow"></div>
+          <div class="notiborderglow"></div>
+          <div class="notititle"></div>
+          <div class="notibody">
+            <h1 style="color: antiquewhite">laboratorio 1</h1>
+          </div>
+        </div>
+      </div>
+
+      <div id="div3" class="lab3">
+        <div id="div5" style="width: 50%">
+          <div
+            id="div2"
+            style="
+              background-image: url(/img/volver.jpg);
+              background-size: cover;
+
+              height: 150px;
+              opacity: 0.9;
+            "
+          ></div>
+        </div>
+
+        <div
+          id="div4"
+          style="background-size: cover; width: 50%; height: 100px"
+        ></div>
+      </div>
+
+      <div id="D5" class="lab1">
+        <div
+          style="position: fixed; bottom: 65px; margin-left: 15px"
+          class="notification"
+        >
+          <div class="notiglow"></div>
+          <div class="notiborderglow"></div>
+          <div class="notititle"></div>
+          <div class="notibody">
+            <h1 style="color: antiquewhite">laboratorio 2</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/JS/reloj.js"></script>
+  <script  src="/JS/movImagenes.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.1/dist/sweetalert2.all.min.js"></script>
+</html>
